@@ -1,8 +1,9 @@
 # Dipendenze
 
 
-node_modules/
-
+node_modules
+dist
+.parcel-cache
 # File di ambiente
 .env
 
@@ -16,11 +17,16 @@ yarn-error.log*
 Thumbs.db
 
 # Output di build (se presente)
-dist/
-build/
+dist
+build
+out
+coverage
 
 # File temporanei di editor
 *.swp
 *.swo
-.idea/
-.vscode/
+.idea
+.vscode
+
+*.sublime-project
+*.sublime-workspace
